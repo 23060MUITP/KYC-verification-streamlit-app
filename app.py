@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from utils.face_matcher import compare_faces
+from face_matcher import compare_faces
 
 st.set_page_config(page_title="KYC Face Verification", layout="centered")
 st.title("KYC Face Verification")
